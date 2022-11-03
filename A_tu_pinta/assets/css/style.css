@@ -1,0 +1,105 @@
+
+/* 300/ 400/700 fomts*/
+
+
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h4 {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 68px;
+}
+
+.carousel-control-next-icon {
+    color: black;
+}
+
+section {
+    border-bottom: 1px solid rgb(134, 129, 129);
+}
+
+#contacto {
+    border-bottom: #fff;
+}
+
+#contacto.h4 {
+    font-size: 58px;
+}
+
+h4 {
+    font-size: 48px;
+}
+
+i {
+    font-size: 64px;
+}
+
+p {
+    font-weight: 400;
+}
+
+#ingredientes {
+    background-image: url(/assets/img/grafismo\ 1.png);
+
+}
+
+#ingredientes.background {
+    opacity: 0.6;
+}
+
+#txt-ingredients {
+    color: #a1401c;
+    text-shadow: 1px 1px #000000;
+    font-size: 58px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ffcd00
+}
+
+.p-redes {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+label {
+    font-size: 20px;
+}
+
+.pedir-btn {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+
+.social-media {
+    background-color: #dc3545;
+}
+
+@media (max-width: 375px) {
+    .social-media {
+        background-color: #a1401c;
+    }
+
+}
